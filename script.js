@@ -304,3 +304,12 @@ document.addEventListener('keydown', (e) => {
         }
     }
 });
+
+// Build email dynamically so it can't be scraped
+const emailUser = 'amitalkingband';
+const emailDomain = 'gmail.com';
+const fullEmail = emailUser + '@' + emailDomain;
+const emailText = document.getElementById('email-text');
+const emailLink = document.getElementById('email-link');
+if (emailText) emailText.textContent = fullEmail;
+if (emailLink) emailLink.href = 'mailto:' + fullEmail;
