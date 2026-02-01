@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Am I Talking - Indie Rock Band</title>
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/ambella" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#home" class="logo">Am I Talking</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#music" class="nav-link">Music</a></li>
+                <li><a href="#videos" class="nav-link">Videos</a></li>
+                <li><a href="#gallery" class="nav-link">Photo Gallery</a></li>
+                <li><a href="#shows" class="nav-link">Show Dates</a></li>
+                <li><a href="#connect" class="nav-link">Connect</a></li>
+                <li><a href="#question" class="nav-link">Am I Talking?</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">Am I</span>
+                <span class="title-line">Talking</span>
+            </h1>
+            <p class="hero-subtitle">Indie Rock from Chicago</p>
+            <div class="hero-buttons">
+                <a href="#music" class="btn btn-primary">Listen Now</a>
+                <a href="#connect" class="btn btn-secondary">Stay Connected</a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="section music-section">
+        <div class="container">
+            <h2 class="section-title">Listen</h2>
+            
+            <!-- Featured Release -->
+            <div class="featured-release">
+                <h3 class="featured-title">Stream 'Anger and Proximity'</h3>
+                <a href="https://www.tapelink.io/share/sYVlly0A" target="_blank" rel="noopener noreferrer" class="album-link">
+                    <img src="anger.jpg" alt="Anger and Proximity album artwork" class="album-artwork">
+                </a>
+            </div>
+            
+            <div class="music-grid">
+                <a href="https://open.spotify.com/artist/6xTOCAD36uf1x7uWfacDfe?si=Yhx37OPISKO3pCTKnc0-nQ" target="_blank" rel="noopener noreferrer" class="music-card spotify">
+                    <div class="music-card-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+                        </svg>
+                    </div>
+                    <div class="music-card-content">
+                        <h3>Spotify</h3>
+                        <p>Stream our music</p>
+                    </div>
+                </a>
+                <a href="https://music.apple.com/us/artist/socks-on-sex/1731284141" target="_blank" rel="noopener noreferrer" class="music-card apple">
+                    <div class="music-card-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                        </svg>
+                    </div>
+                    <div class="music-card-content">
+                        <h3>Apple Music</h3>
+                        <p>Listen on Apple</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="section videos-section">
+        <div class="container">
+            <h2 class="section-title">Videos</h2>
+            <div class="video-wrapper">
+                <div class="video-container">
+                    <iframe src="https://www.youtube-nocookie.com/embed/rWgOxYlNi5c?si=EKT2hpRUUIPtNJEh" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-link-fallback">
+                    <p>Video not loading? <a href="https://www.youtube.com/watch?v=rWgOxYlNi5c" target="_blank" rel="noopener noreferrer" class="youtube-link">Watch on YouTube</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <h2 class="section-title">Photo Gallery</h2>
+            <div class="gallery-slideshow">
+                <button class="gallery-nav prev" aria-label="Previous photo">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                
+                <div class="gallery-container">
+                    <div class="gallery-slide active">
+                        <img src="melt.jpg" alt="Am I Talking band photo">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="anniepoint.jpg" alt="Am I Talking band photo">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="living room.jpg" alt="Am I Talking band photo">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="subt.jpg" alt="Am I Talking band photo">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="goofy.jpg" alt="Am I Talking band photo">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="window.jpg" alt="Am I Talking band photo">
+                    </div>
+                    <div class="gallery-slide">
+                        <img src="tim.jpg" alt="Am I Talking band photo">
+                    </div>
+                </div>
+                
+                <button class="gallery-nav next" aria-label="Next photo">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+            
+            <div class="gallery-dots"></div>
+        </div>
+        
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="lightbox">
+            <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+            <button class="lightbox-nav lightbox-prev" aria-label="Previous photo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+            </button>
+            <img src="" alt="" class="lightbox-image">
+            <button class="lightbox-nav lightbox-next" aria-label="Next photo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    <!-- Show Dates Section -->
+    <section id="shows" class="section shows-section">
+        <div class="container">
+            <h2 class="section-title">Show Dates</h2>
+            <div class="shows-list">
+                <div class="show-item">
+                    <div class="show-details">
+                        <h3 class="show-venue">The Burlington</h3>
+                        <p class="show-info">2.27.26 — Chicago, IL</p>
+                    </div>
+                    <a href="https://dice.fm/partner/tickets/event/dkae9e-pepper-said-anteeter-am-i-talking-27th-feb-the-burlington-chicago-tickets?dice_id=7738888&dice_channel=web&dice_tags=organic&dice_campaign=Darren+Keen+dba+Personal+Space+Booking&dice_feature=mio_marketing&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYz0214kP5i6b15vhvIO2OYB7sv68LGjo8XLRbSM73aRavpOk0xUalOwi0iQ_aem_5wcgR3eqQNDMFW4axkBpew&utm_content=link_in_bio&utm_medium=social&utm_source=ig&_branch_match_id=913800233533589555&utm_campaign=Darren+Keen+dba+Personal+Space+Booking&_branch_referrer=H4sIAAAAAAAAAx3PzW6CMAAA4LfxKJV%2Fl5AFdHNbLAiTIFyathQof2UFgXjYsy%2Fz%2Bt2%2BapqG8UVRWt4325xTti06Jbb3wNwXpmqo1mtBaMtz5%2BJmtwqQ0q%2ByBBzg9c2l2hdIl6yiH16BkxDCOlZhXa7wGC7%2BNdZd99SnD6Du9OZicJPsjLmaPwM1SD1rnE37fKqFfTtH5BtaGo7wPAQNWGPcBgsHPESYdchYaBlp7Cf0j%2FA90fHaeANbNvepQx3L%2Bb1zRkE5bp9CRT%2BxfnL%2BL4j3iHDx9FHcJWUOLze%2FkhVMSt6XiEixjEw6h0qKjv0Bv9bDNwcBAAA%3D" target="_blank" rel="noopener noreferrer" class="btn btn-primary tickets-btn">Get Tickets</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect Section -->
+    <section id="connect" class="section connect-section">
+        <div class="container">
+            <h2 class="section-title">Connect</h2>
+            <div class="connect-content">
+                <div class="connect-text">
+                    <p>Stay in the loop. Get updates, new releases, and tour announcements.</p>
+                </div>
+                <div class="contact-info">
+                    <a href="mailto:amitalkingband@gmail.com" class="contact-link email">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <span>amitalkingband@gmail.com</span>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.tiktok.com/@am_i_talking?_t=ZT-8wAhWtQcn1S&_r=1" target="_blank" rel="noopener noreferrer" class="social-link tiktok">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                        </svg>
+                        <span>TikTok</span>
+                    </a>
+                    <a href="https://www.instagram.com/am.i.talking?igsh=MWx2YmFlbDY1ZHIwNg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" class="social-link instagram">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Am I Talking Section -->
+    <section id="question" class="section question-section">
+        <div class="container">
+            <h2 class="section-title">Am I Talking?</h2>
+            <div class="lyrics-container">
+                <button id="talk-button" class="talk-button">Talk to me</button>
+                <div id="lyrics-display" class="lyrics-display"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Am I Talking. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
